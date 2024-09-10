@@ -1,7 +1,7 @@
 # React Vite Actions
 
 Sample code for:
-React + Vite + Github Actions
+React + MUI + Github Actions
 
 automatically deploy react project to github pages
 
@@ -12,14 +12,17 @@ TODO: automate
 
 
 ## Frontend Environment
-React + Typescript + Vite + TailwindCSS
+React + Typescript + Vite + MUI
+
+Project template using TailwindCSS -> [Here](https://github.com/fkfk21/react-vite-actions)
+
 
 ```bash
 ./make_env.sh
 ```
 
 ```bash
-./login_frontend.sh
+./login.sh
 ```
 docker内で
 ```bash
@@ -27,19 +30,18 @@ npm i
 ```
 
 ## Development
-frontend
 ```bash
-./login_frontend.sh
+./login.sh
 npm i
 npm run dev
+```
+## Check build result
+```bash
+./login.sh
+npm run build
+npm run preview
 ```
 
-backend
-```bash
-./login_backend.sh
-npm i
-npm run dev
-```
 
 ## Environment Setup
 
