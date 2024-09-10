@@ -7,6 +7,9 @@ automatically deploy react project to github pages
 
 ## For new project
 1. Change PROJECT_BASENAME in vite.config.js
+2. Change Github Pages settings for Github Actions
+  - repository settings -> Pages -> Source -> Github Actions
+
 
 TODO: automate
 
